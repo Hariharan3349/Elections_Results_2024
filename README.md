@@ -74,6 +74,8 @@ lowest_margin = data.loc[data['Margin'].idxmin()]
 ```
 ![image](https://github.com/Hariharan3349/Loksabha_Election_Results_2024/blob/main/graph/Highest%20and%20lowest%20Victory%20Candidate.png)
 
+
+
 ### Plot Number of Seats Won by Each Party
 
 ```python
