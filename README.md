@@ -114,6 +114,6 @@ fig.show()
 
 ### Number of Seats Won by Each Party
 Here is a sample visualization of the number of seats won by each party:
-![image](https://github.com/Vishal9871/Elections_Results_2024/blob/main/graph/Top%2010%20trailing%20party%20by%20SEAT.png)
+![image](https://github.com/Hariharan3349/Elections_Results_2024/blob/main/graph/Top%2010%20trailing%20party%20by%20SEAT.png)
 ## License
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+This project is licensed under the MIT License - see the [LICENSE] (https://github.com/Hariharan3349/Elections_Results_2024/blob/main/LICENSE) for details.
