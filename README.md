@@ -1,4 +1,4 @@
-# Elections_Results_2024
+# Loksabha_Election_Results_2024
 
 
 This project analyzes the results of the 2024 elections using a dataset of election results. The analysis includes identifying the party with the highest and lowest margins of victory, visualizing the number of seats won by each party, and examining the top margins achieved by different parties.
@@ -28,7 +28,7 @@ The dataset used for this analysis is `election_result_2024.csv`, which contains
 1. Clone this repository:
 
 ```sh
-https://github.com/Hariharan339/Elections_Results_2024/blob/main/README.md
+https://github.com/Hariharan339/Loksabha_Election_Results_2024/blob/main/README.md
 ```
 
 2. Navigate to the project directory:
@@ -39,7 +39,7 @@ https://github.com/Hariharan339/Elections_Results_2024/blob/main/README.md
 4. Run the Jupyter notebook:
 
 ```sh
-jupyter notebook Election_results_2024_stats.ipynb
+jupyter notebook Elections_2024.ipynb
 ```
 ## Analysis Overview
 ### Import Libraries
@@ -72,7 +72,7 @@ highest_margin = data.loc[data['Margin'].idxmax()]
 lowest_margin = data.loc[data['Margin'].idxmin()]
 
 ```
-![image](https://github.com/Hariharan3349/Elections_Results_2024/blob/main/graph/Highest%20and%20lowest%20Victory%20Candidate.png)
+![image](https://github.com/Hariharan3349/Loksabha_Election_Results_2024/blob/main/graph/Highest%20and%20lowest%20Victory%20Candidate.png)
 
 ### Plot Number of Seats Won by Each Party
 
@@ -89,10 +89,10 @@ plt.ylabel('Seats Won')
 plt.xticks(rotation=90)
 plt.show()
 ```
-![image](https://github.com/Hariharan3349/Elections_Results_2024/blob/main/graph/Plot%20number%20of%20seats%20won%20by%20each%20party.png)
+![image](https://github.com/Hariharan3349/Loksabha_Election_Results_2024/blob/main/graph/Plot%20number%20of%20seats%20won%20by%20each%20party.png)
 ### Top Margin Achieved by Party
 The analysis further explores the top margins achieved by different parties.
-![image](https://github.com/Hariharan3349/Elections_Results_2024/blob/main/graph/Top%20margin%20Achieved%20by%20party.png)
+![image](https://github.com/Hariharan3349/Loksabha_Election_Results_2024/blob/main/graph/Top%20margin%20Achieved%20by%20party.png)
 
 ## Visualizations
 ### Election Results Map
@@ -110,10 +110,10 @@ fig = px.scatter_geo(data,
 fig.update_layout(title='Election Results 2024')
 fig.show()
 ```
-![State wise party distribution](https://github.com/Hariharan3349/Elections_Results_2024/blob/main/graph/State%20wise%20party%20distribution.png)
+![State wise party distribution](https://github.com/Hariharan3349/Loksabha_Election_Results_2024/blob/main/graph/State%20wise%20party%20distribution.png)
 
 ### Number of Seats Won by Each Party
 Here is a sample visualization of the number of seats won by each party:
-![image](https://github.com/Hariharan3349/Elections_Results_2024/blob/main/graph/Top%2010%20trailing%20party%20by%20SEAT.png)
+![image](https://github.com/Hariharan3349/Loksabha_Election_Results_2024/blob/main/graph/Top%2010%20trailing%20party%20by%20SEAT.png)
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Hariharan3349/Elections_Results_2024/blob/main/LICENSE) for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Hariharan3349/Loksabha_Election_Results_2024/blob/main/LICENSE) for details.
